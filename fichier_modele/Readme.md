@@ -1,29 +1,39 @@
 # Nouvelle méthode de prédiction de Protein Blocks (NMPPB)
 
-Ce programme permet de produire des modéle pour la prédiction de proteine blocs.
- Il a été réalisé dans le cadre d'un projet long
-pour le Master M2BI de l'Université Paris Diderot.
+## Overview
+
+Ce programme permet de produire des modéle pour la prédiction de proteine blocs 
+(16 classes de prediction).
+Il devrait proposer 3 modéles : le premier utilisant des algorithmes de type
+SVM (Support Vecteur Machine, et les deux derniers des algorithmes de type MLP 
+(Multi layers Perceptron), ou les différentes . Malheureusement, les 2 le mode
+MPL n'a pas pu étre directement implenté, mais le scipt de celui-ci se trouve 
+ici, sous le nom 'mlp_mode.py'.
+
+Il a été réalisé dans le cadre d'un projet long pour le Master M2BI de 
+l'Université Paris Diderot.
 
 ## Contents
 
 1. Projet_long_5_MOUTOUSSAMY
-
   1.1 aamtx ->  dossier ou seront ajouter l'ensemble des fichiers pssm
-
   1.2 pir_pb  ->  dossier ou seront ajouter l'ensemble des fichiers des blocs
-
   1.3 fichier_modele  ->  contient l'ensemble des scripts
+    1.3.1 code_blocs.py -> Script de traduction et de formatage des blocs
+    1.3.2 lance_svm.py -> Script du programme libsvm (production et test de 
+    modele)
+    1.3.3 mlp_mode.py -> Script du programme nolearn(production et test de 
+    modele par reseau de neurones)
+
+
 2. Readme.txt
 3. Rapport_projet_5_MOUTOUSSAMY.pdf
 
-## Overview
-
-  Ce programme permet de produire 2 types de modéle. Un modéle dit SVM, car il 
-  utilise des programme SVM (support vecteur machine, et des modéle MLP, 
-  utilisant des programmes de reseau de neurone.
 
 
-  Format de fichier nécéssaire:
+
+
+## Format de fichier nécéssaire:
 
     .aamtx : 
     tout les fichiers aamtx (pssm) doivent se trouver dans le dossier aamtx
@@ -57,6 +67,10 @@ Pour l’installation de numpy peut importe le système d’exploitation:
 et suivre les instructions.
 
 Pour l’installation de LIBSVM : 
+
+  https://www.csie.ntu.edu.tw/~cjlin/libsvm/
+
+et suivre les instructions.
 
 ## Notes on use
 
