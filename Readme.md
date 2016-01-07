@@ -1,6 +1,6 @@
 # Nouvelle méthode de prédiction de Protein Blocks (NMPPB)
 
-## Overview
+## Resumé
 
 Ce programme permet de produire des modéles pour la prédiction de proteine blocs 
 (16 classes de prediction).
@@ -13,7 +13,7 @@ ici, sous le nom 'mlp_mode.py'.
 Il a été réalisé dans le cadre d'un projet long pour le Master M2BI de 
 l'Université Paris Diderot.
 
-## Contents
+## Fichiers
 
 1. Projet_long_5_MOUTOUSSAMY
 
@@ -52,7 +52,7 @@ l'Université Paris Diderot.
     de la pssm (aamtx)
 
 
-## System requirements
+## Programmes et modules nécessaires
 
  NMPPB nécessite python, il a été développé sous Macintosh, mais est 
    multi-plate-forme.
@@ -84,7 +84,7 @@ Pour l’installation de NOLEARN :
 et suivre les instructions.
 
 
-## Notes on use
+## Notes d'utilisation
 
 Le dossier comporte le script bash suivant : luncher.sh, qui permet de lancer 
 presque l'ensemble des programmes, mais il néssésite l'utilisation d'un tag 
