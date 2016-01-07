@@ -16,12 +16,18 @@ l'Université Paris Diderot.
 ## Contents
 
 1. Projet_long_5_MOUTOUSSAMY
+
   1.1 aamtx ->  dossier ou seront ajouter l'ensemble des fichiers pssm
+
   1.2 pir_pb  ->  dossier ou seront ajouter l'ensemble des fichiers des blocs
+
   1.3 fichier_modele  ->  contient l'ensemble des scripts
+
     1.3.1 code_blocs.py -> Script de traduction et de formatage des blocs
+
     1.3.2 lance_svm.py -> Script du programme libsvm (production et test de 
     modele)
+    
     1.3.3 mlp_mode.py -> Script du programme nolearn(production et test de 
     modele par reseau de neurones)
 
