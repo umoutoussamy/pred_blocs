@@ -59,12 +59,11 @@ l'Université Paris Diderot.
 
    Il nécessite les modules suivant:
   
-   Modules  Actions
-  ----------------------------------------------------------------------------
     sys   passage d'arguments, gestion de l'entrée/sortie standard...
-    os    dialogue avec le système d'exploitation.
+    os  dialogue avec le système d'exploitation.
     numpy   fonctions d’ algèbre linéaire...
-    LIBSVM  fonction d'apprentissage 
+    LIBSVM    fonction d'apprentissage 
+    nolearn   fonction pour l'utilisation et la prodution de reseau de neurone 
 
 Pour l’installation de numpy peut importe le système d’exploitation: 
 
@@ -77,6 +76,13 @@ Pour l’installation de LIBSVM :
   https://www.csie.ntu.edu.tw/~cjlin/libsvm/
 
 et suivre les instructions.
+
+Pour l’installation de NOLEARN : 
+
+  https://pythonhosted.org/nolearn/
+
+et suivre les instructions.
+
 
 ## Notes on use
 
@@ -102,7 +108,7 @@ exemple : ./luncher.sh              —> incorrecte
       ./luncher.sh  -svm      —> correcte
       ./luncher.sh  -mlp      —> correcte
 
-## Extension et traitement du sujet
+## Traitement du sujet
 
 Sujet : 
   Le sujet n’a pas été traité dans son intégralité :
@@ -141,7 +147,8 @@ Sujet :
     ./luncher.sh  -svm 
 
   Le fichier bash va automatiquement produire les donnée nécéssaire et les 
-  resultas. ATTENTION !!!! les resultats ne seront pas sauvegarder !!!
+  resultas. ATTENTION !!!! les resultats et le model ne seront pas sauvegarder 
+  !!!
  
 
 résumer : décompression/désarchivage 
@@ -151,7 +158,6 @@ résumer : décompression/désarchivage
     ./luncher.sh  -svm
 
 ## Contact
-
 
 
 Auteur : Igor Ulrich MOUTOUSSAMY
