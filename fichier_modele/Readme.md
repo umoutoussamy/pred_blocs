@@ -1,14 +1,17 @@
 # Nouvelle méthode de prédiction de Protein Blocks (NMPPB)
 
-Ce programme permet de calculer l'angle entre deux domaines
-d'une même protéine. Il a été réalisé dans le cadre d'un projet long
+Ce programme permet de produire des modéle pour la prédiction de proteine blocs.
+ Il a été réalisé dans le cadre d'un projet long
 pour le Master M2BI de l'Université Paris Diderot.
 
 ## Contents
 
 1. Projet_long_5_MOUTOUSSAMY
+
   1.1 aamtx ->  dossier ou seront ajouter l'ensemble des fichiers pssm
+
   1.2 pir_pb  ->  dossier ou seront ajouter l'ensemble des fichiers des blocs
+
   1.3 fichier_modele  ->  contient l'ensemble des scripts
 2. Readme.txt
 3. Rapport_projet_5_MOUTOUSSAMY.pdf
