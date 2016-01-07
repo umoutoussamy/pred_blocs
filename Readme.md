@@ -2,7 +2,7 @@
 
 ## Overview
 
-Ce programme permet de produire des modéle pour la prédiction de proteine blocs 
+Ce programme permet de produire des modéles pour la prédiction de proteine blocs 
 (16 classes de prediction).
 Il devrait proposer 3 modéles : le premier utilisant des algorithmes de type
 SVM (Support Vecteur Machine, et les deux derniers des algorithmes de type MLP 
