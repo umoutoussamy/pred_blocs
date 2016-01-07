@@ -13,7 +13,7 @@ ici, sous le nom 'mlp_mode.py'.
 Il a été réalisé dans le cadre d'un projet long pour le Master M2BI de 
 l'Université Paris Diderot.
 
-## Fichiers
+## Contenu
 
 1. Projet_long_5_MOUTOUSSAMY
 
@@ -40,6 +40,9 @@ l'Université Paris Diderot.
 
 
 ## Format de fichier nécéssaire:
+  Ce programme permet de produire 2 types de modéle. Un modéle dit SVM, car il 
+  utilise des programme SVM (support vecteur machine, et des modéle MLP, 
+  utilisant des programmes de reseau de neurone.
 
     .aamtx : 
     tout les fichiers aamtx (pssm) doivent se trouver dans le dossier aamtx
